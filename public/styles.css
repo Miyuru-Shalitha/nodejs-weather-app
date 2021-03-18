@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("/pexels-roberto-shumski-1903702.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body > form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-input {
+  width: 40%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  outline-width: 0;
+  font-size: large;
+}
+
+#weather-card-container {
+  display: flex;
+}
+
+.weather-card {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(152, 163, 163, 0.5);
+  color: rgba(19, 20, 20, 0.692);
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.weather-card-city-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
